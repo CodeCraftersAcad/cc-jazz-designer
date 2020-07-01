@@ -84,7 +84,7 @@ nav ul li a{
   padding: 0;
 }
 .jumbotron h1{
-  font-size: 15vw;
+  font-size: 10vw;
 }
 .shop-btn{
   background-color: transparent;
@@ -181,16 +181,29 @@ footer .social i{
   /* company info */
   .company-info p:nth-child(1){
   text-align: center;
-}
-.company-info p:nth-child(3){
-  text-align: center;
-}
+  }
+  .company-info p:nth-child(3){
+    text-align: center;
+  }
   /* end company info */
   /* jumbotron */
   .jumbotron{
-    height: 80vh;
+    height: 60vh;
+  }
+  .jumbotron p a{
+    margin-top: 1rem;
+  }
+  .jumbotron h1{
+    font-size: 19vw;
   }
   /* end jumbotron */
   /* end header */
+  /* about */
+  .about .pr-2,
+  .about .pl-2{
+    padding:0 !important;
+    margin: .5rem 0;
+  }
+  /* end about */
 }
 /* end media queries */
