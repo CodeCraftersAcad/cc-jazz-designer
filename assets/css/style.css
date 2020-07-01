@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+/* abril,yeseva, libre barcode, chonburi, gravitas, LIMELIGHT  font */
+:root{
+  --white: #fff;
+  --grey-bg: #fdfdfd;
+  --dark-gray: #666;
+  --black: #2a2a2a;
+  --primary: #0275d8;
+  --danger: #d9534f;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  /* background-color: var(--white); */
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  background-color: var(--white);
+}
+h1,h2,h3,h4{
+  font-family: "Limelight", Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+/* header */
+/* company info */
+.company-info{
+  background-color: var(--black);
+  color:var(--white);
+}
+.company-info p{
+  padding: 0;
+  margin: 0;
+}
+.company-info p:nth-child(2){
+  text-align: center;
+}
+.company-info p:nth-child(3){
+  text-align: right;
+}
+/* end company info */
+
+/* nav */
+nav ul{
+  background-color: transparent;
+}
+.navbar-brand{
+  font-family: "Limelight", Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-toggler, 
+.navbar-toggler:active, 
+.navbar-toggler:focus{
+  border:none;
+  outline:none;
+}
+nav ul li a{
+  color: var(--black) !important;
+}
+/* end nav */
+
+/* jumbotron */
+.jumbotron{
+  height: 80vh;
+  background: linear-gradient(to left bottom,var(--danger), var(--primary));
+  text-align: center;
+  position: relative;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.jumbotron .headings{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.jumbotron h1, 
+.jumbotron h3{
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+.jumbotron h1{
+  font-size: 15vw;
+}
+.shop-btn{
+  background-color: transparent;
+  border: 1px solid var(--white);
+  width: 10rem;
+  margin-top: 3rem;
+}
+.shop-btn:hover{
+  background-color: var(--white);
+}
+a.shop-btn{
+  color: white;
+  text-decoration: none;
+}
+/* end jumbotron */
+/* end header */
+
+/* main content */
+/* products */
+.products h2{
+  margin-top: 2rem;
+}
+.card{
+  background-color: var(--grey-bg);
+  border:none;
+  border-radius: 10px;
+}
+.card-img-div{
+  background-color: var(--dark-gray);
+  width: 100%;
+  height: 10rem;
+}
+/* end products */
+
+/* about us */
+.about h2{
+  margin-top: 2rem;
+}
+.about .section-one-inner-div,
+.about .about-break-inner-div{
+  background-color: var(--dark-gray);
+  width: 100%;
+  height: 30vh;
+}
+.about .section-two div{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about h1{
+  font-family: "Nunito";
+}
+.about .section-two div:nth-child(2), 
+.about .section-two div:nth-child(3){
+  background-color: var(--dark-gray);
+}
+.about .section-two div:nth-child(1), 
+.about .section-two div:nth-child(4){
+  background-color: var(--grey-bg);
+  padding: 1rem;
+}
+/* end about us */
+/* end main content */
+
+/* footer */
+footer{
+  padding: 2rem;
+}
+footer h5{
+  font-weight: 300;
+}
+footer, footer a{
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+footer a:hover{
+  color: var(--white);
+}
+footer .social i{
+  color: var(--white);
+  padding: 1rem;
+  margin: 1rem .25rem;
+  font-size: 2rem;
+}
+/* end footer */
+
+/* media queries */
+@media screen and (max-width: 414px){
+  body.container{
+    padding: 0;
+  }
+  /* header */
+  /* company info */
+  .company-info p:nth-child(1){
+  text-align: center;
+}
+.company-info p:nth-child(3){
+  text-align: center;
+}
+  /* end company info */
+  /* jumbotron */
+  .jumbotron{
+    height: 80vh;
+  }
+  /* end jumbotron */
+  /* end header */
+}
+/* end media queries */
