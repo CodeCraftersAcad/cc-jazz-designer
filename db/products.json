@@ -1,0 +1,216 @@
+{
+  "shirts": [
+    {
+      "id": 1,
+      "name": "",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "black",
+      "image": "./assets/images/black_long_sleeve_check_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "blue",
+      "image": "./assets/images/blue_long_sleeve_check_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "pink",
+      "image": "./assets/images/pink_long_sleeve_pink_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "red",
+      "image": "./assets/images/red_long_sleeve_check_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "white",
+      "image": "./assets/images/white_long_sleeve_check_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "light-blue",
+      "image": "./assets/images/light_blue_long_sleeve_check_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "",
+      "added": "",
+      "sleeveLength": "short",
+      "price": 40,
+      "color": "blue",
+      "image": "./assets/images/blue_short_sleeve_no_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "",
+      "added": "",
+      "sleeveLength": "short",
+      "price": 40,
+      "color": "white",
+      "image": "./assets/images/flower_white_short_sleeve_no_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "",
+      "added": "",
+      "sleeveLength": "short",
+      "price": 40,
+      "color": "red",
+      "image": "./assets/images/red_short_sleeve_black_cuff.png",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "",
+      "added": "",
+      "sleeveLength": "short",
+      "price": 40,
+      "color": "white",
+      "image": "./assets/images/white_short_sleeve_blue_cuff.png",
+      "description": ""
+    }
+  ],
+  "blazers": [
+    {
+      "id": 1,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "light-blue",
+      "image": "./assets/images/light_blue_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "light-green",
+      "image": "./assets/images/light_green_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "light-pink",
+      "image": "./assets/images/light_pink_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "light-purple",
+      "image": "./assets/images/light_purple_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "maroon",
+      "image": "./assets/images/maroon_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "medium-blue",
+      "image": "./assets/images/medium_blue_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "orange",
+      "image": "./assets/images/orange_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "added": "",
+      "name": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "pink",
+      "image": "./assets/images/pink_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "tan",
+      "image": "./assets/images/tan_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "white",
+      "image": "./assets/images/white_blazer.png",
+      "description": ""
+    },
+    {
+      "id": 11,
+      "name": "",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "yellow",
+      "image": "./assets/images/yellow_blazer_dotted_shirt.png",
+      "description": ""
+    }
+  ]
+}
