@@ -35,16 +35,15 @@ function getProducts() {
 }
 
 function generateCard(data) {
-    console.log(data)
-    return `     
+   return `
           <div class="card col-lg-2 m-3">
                  <div class=" card-img-top">
                  <img src=${data.image} alt="${data.name}" class="card-img-top">
              </div>
              <div class="card-body">
-               <h5 class="card-title"><b>{data.name}</b></h5>
-               <h5><b>$${data.price}</b></h5>
+               <p class="card-title text-center"><b>${data.name}</b></p>
                <p class="card-text">${data.description}.</p>
+               <p><b><small>Price </small>$${data.price}</b></p>
              </div>
         </div>
                  `
