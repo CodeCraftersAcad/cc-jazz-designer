@@ -1,0 +1,216 @@
+{
+  "shirts": [
+    {
+      "id": 1,
+      "name": "Black long sleeve w/ checkered cuff",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "black",
+      "image": "./assets/images/black_long_sleeve_check_cuff.png",
+      "description": "Black long sleeve w/ checkered cuff"
+    },
+    {
+      "id": 2,
+      "name": "Blue long sleeve w/ checkered cuff",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "blue",
+      "image": "./assets/images/blue_long_sleeve_check_cuff.png",
+      "description": "Blue long sleeve w/ checkered cuff"
+    },
+    {
+      "id": 3,
+      "name": "Pink long sleeve w/ pink cuff",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "pink",
+      "image": "./assets/images/pink_long_sleeve_pink_cuff.png",
+      "description": "Pink long sleeve w/ pink cuff"
+    },
+    {
+      "id": 4,
+      "name": "Red long sleeve w/ checkered cuff",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "red",
+      "image": "./assets/images/red_long_sleeve_check_cuff.png",
+      "description": "Red long sleeve w/ checkered cuff"
+    },
+    {
+      "id": 5,
+      "name": "White long sleeve checkered cuff",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "white",
+      "image": "./assets/images/white_long_sleeve_check_cuff.png",
+      "description": "White long sleeve checkered cuff"
+    },
+    {
+      "id": 6,
+      "name": "Light-blue long sleeve checkered cuff",
+      "added": "",
+      "sleeveLength": "long",
+      "price": 50,
+      "color": "light-blue",
+      "image": "./assets/images/light_blue_long_sleeve_check_cuff.png",
+      "description": "Light-blue long sleeve checkered cuff"
+    },
+    {
+      "id": 7,
+      "name": "Blue short sleeve",
+      "added": "",
+      "sleeveLength": "short",
+      "price": 40,
+      "color": "blue",
+      "image": "./assets/images/blue_short_sleeve_no_cuff.png",
+      "description": "Blue short sleeve"
+    },
+    {
+      "id": 8,
+      "name": "White w/ flower pattern short sleeve",
+      "added": "",
+      "sleeveLength": "short",
+      "price": 40,
+      "color": "white",
+      "image": "./assets/images/flower_white_short_sleeve_no_cuff.png",
+      "description": "White w/ flower pattern short sleeve"
+    },
+    {
+      "id": 9,
+      "name": "Red short sleeve",
+      "added": "",
+      "sleeveLength": "short",
+      "price": 40,
+      "color": "red",
+      "image": "./assets/images/red_short_sleeve_black_cuff.png",
+      "description": "Red short sleeve"
+    },
+    {
+      "id": 10,
+      "name": "White short sleeve w/ blue cuff",
+      "added": "",
+      "sleeveLength": "short",
+      "price": 40,
+      "color": "white",
+      "image": "./assets/images/white_short_sleeve_blue_cuff.png",
+      "description": "White short sleeve w/ blue cuff"
+    }
+  ],
+  "blazers": [
+    {
+      "id": 1,
+      "name": "Light-blue blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "light-blue",
+      "image": "./assets/images/light_blue_blazer.png",
+      "description": "Light-blue blazer"
+    },
+    {
+      "id": 2,
+      "name": "Light-green blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "light-green",
+      "image": "./assets/images/light_green_blazer.png",
+      "description": "Light-green blazer"
+    },
+    {
+      "id": 3,
+      "name": "Light-pink blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "light-pink",
+      "image": "./assets/images/light_pink_blazer.png",
+      "description": "Light-pink blazer"
+    },
+    {
+      "id": 4,
+      "name": "Light-purple blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "light-purple",
+      "image": "./assets/images/light_purple_blazer.png",
+      "description": "Light-purple blazer"
+    },
+    {
+      "id": 5,
+      "name": "Maroon blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "maroon",
+      "image": "./assets/images/maroon_blazer.png",
+      "description": "Maroon blazer"
+    },
+    {
+      "id": 6,
+      "name": "Medium-blue blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "medium-blue",
+      "image": "./assets/images/medium_blue_blazer.png",
+      "description": "Medium-blue blazer"
+    },
+    {
+      "id": 7,
+      "name": "Orange blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "orange",
+      "image": "./assets/images/orange_blazer.png",
+      "description": "Orange blazer"
+    },
+    {
+      "id": 8,
+      "added": "",
+      "name": "Pink blazer",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "pink",
+      "image": "./assets/images/pink_blazer.png",
+      "description": "Pink blazer"
+    },
+    {
+      "id": 9,
+      "name": "Tan",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "tan",
+      "image": "./assets/images/tan_blazer.png",
+      "description": "Tan blazer"
+    },
+    {
+      "id": 10,
+      "name": "White blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "white",
+      "image": "./assets/images/white_blazer.png",
+      "description": "White blazer"
+    },
+    {
+      "id": 11,
+      "name": "Yellow blazer",
+      "added": "",
+      "sleeveLength": "",
+      "price": 200,
+      "color": "yellow",
+      "image": "./assets/images/yellow_blazer_dotted_shirt.png",
+      "description": "Yellow blazer"
+    }
+  ]
+}
