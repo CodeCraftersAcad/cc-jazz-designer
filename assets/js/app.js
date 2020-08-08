@@ -48,6 +48,14 @@ function generateCard(data) {
                <p class="card-title text-center"><b>${data.name}</b></p>
                <p class="card-text">${data.description}.</p>
                <p><b><small>Price </small>$${data.price}</b></p>
+               <label for="size-select">Size: </label>
+               <select name="size" id="size-select">
+               <option value="s">Small</option>
+               <option value="m">Medium</option>
+               <option value="l">Large</option>
+               <option value="xl">X-Large</option>
+               <option value="xxl">XX-Large</option>
+</select>
              </div>
 <!--               <button class="btn btn-outline-primary mb-4 mt-4" data-id='${JSON.stringify(data)}' data-toggle="modal" data-target="#product-modal" onclick="viewMore(event)">View more</button>-->
         </div>
