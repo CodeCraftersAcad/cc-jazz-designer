@@ -30,6 +30,12 @@ body{
 .btn{
   border-radius: 0;
 }
+
+.card-body {
+  max-height: 80%;
+}
+
+
 /* header */
 /* company info */
 .company-info{
@@ -93,21 +99,6 @@ nav ul li a{
 }
 .jumbotron h1{
   font-size: 15vh;
-}
-.shop-btn{
-  background-color: var(--primary);
-  color: var(--white) !important;
-  /* border: 1px solid var(--primary); */
-  width: 10rem;
-  margin-top: 3rem;
-}
-.shop-btn:hover{
-  background-color: var(--white);
-  color: var(--primary);
-}
-a.shop-btn{
-  color: var(--primary);
-  text-decoration: none;
 }
 /* end jumbotron */
 /* end header */
