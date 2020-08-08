@@ -70,35 +70,38 @@ nav ul li a{
   font-size: 14px;
 }
 /* end nav */
-
 /* jumbotron */
 .jumbotron{
-  height: 50vh;
-  background-color: var(--white);
-  /* background: linear-gradient(to right bottom,var(--white),var(--danger), var(--primary), var(--white)); */
-  text-align: center;
-  position: relative;
-  border-radius: 0;
-  margin-bottom: 0;
-}
-.jumbotron .headings{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 0;
+  height: 60vh;
+  margin-top: 1rem;
 }
 
-.headings {
-  width: 80%;
-}
-.jumbotron h1,
-.jumbotron h3{
-  color: var(--primary);
+div.header-box{
+  width: 33.3%;
   margin: 0;
   padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  transition: all 1s;
 }
-.jumbotron h1{
-  font-size: 15vh;
+div.header-box:hover{
+  transform: scale(1.03);
+}
+div.box-one{
+  /* background-color: #FDCA40; */
+  background-color: #8dcdd0;
+  background-image: url("../images/light_blue_long_sleeve_check_cuff.png");
+}
+div.box-two{
+  background-color: #dcb6bb;
+  background-image: url("../images/red_short_sleeve_black_cuff.png");
+}
+div.box-three{
+  background-color: #cadff3;
+  background-image: url("../images/light_blue_blazer.png");
+
 }
 /* end jumbotron */
 /* end header */
@@ -158,6 +161,7 @@ footer, footer a{
   background-color: var(--danger);
   color: var(--white);
 }
+
 footer a:hover{
   color: var(--white);
 }
@@ -170,6 +174,8 @@ footer .social i{
 /* end footer */
 
 /* media queries */
+/* 768px */
+
 @media screen and (max-width: 414px){
   body.container{
     padding: 0;
@@ -182,17 +188,12 @@ footer .social i{
   .company-info p:nth-child(3){
     text-align: center;
   }
+  
   /* end company info */
   /* jumbotron */
-  .jumbotron{
-    height: 60vh;
-  }
-  .jumbotron p a{
-    margin-top: 1rem;
-  }
-  .jumbotron h1{
-    font-size: 19vw;
-  }
+div.header-box{
+  background-position: center;
+}
   /* end jumbotron */
   /* end header */
   /* about */
