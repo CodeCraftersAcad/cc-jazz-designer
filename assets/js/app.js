@@ -8,27 +8,29 @@ window.addEventListener('load', () => {
 })
 
 
-const shirtGallery = document.getElementById('shirt-gallery');
-const blazertGallery = document.getElementById('blazer-gallery');
+const shortSleeveGallery = document.getElementById('short-sleeve-gallery');
+const longSleeveGallery = document.getElementById('long-sleeve-gallery');
+const blazerGallery = document.getElementById('blazer-gallery');
 
 
 function getProducts() {
     fetch('./db/products.json')
         .then(res => res.json())
         .then(responseData => {
+            responseData.shirts.map((shirt, index) => {
+                if (shirt.sleeveLength === 'short') {
+                    shortSleeveGallery.innerHTML += generateCard(shirt)
+                }
+                if (shirt.sleeveLength === 'long') {
+                    longSleeveGallery.innerHTML += generateCard(shirt)
+                }
+            })
 
-            if (responseData.shirts) {
-                let {shirts} = responseData;
-                shirts.map((data, index) => {
-                    let productCard = generateCard(data)
-                    shirtGallery.innerHTML += productCard
-                })
-            }
             if (responseData.blazers) {
                 let {blazers} = responseData;
                 blazers.map((data, index) => {
                     let productCard = generateCard(data)
-                    blazertGallery.innerHTML += productCard
+                    blazerGallery.innerHTML += productCard
                 })
             }
         })
